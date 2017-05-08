@@ -12,6 +12,6 @@ get  '/home', to:'static_pages#home'
 
 get '/login', to:'static_pages#login'
 
-get '/sigh', to:'static_pages#sighup'
+get '/sign', to:'static_pages#signup'
 
 end
